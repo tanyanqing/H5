@@ -1,0 +1,79 @@
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var{   
+ padding: 0;   
+ margin: 0;
+}
+/*去掉 内外边距*/
+*{    
+	padding: 0;   
+ 	margin: 0;
+}
+/*设置这个整体的容器的背景色*/
+body{    
+	background-color: #F2F2F2;    
+	/*让其水平居中*/   
+ 	text-align: center;
+}
+/*面板*/
+#panel{    
+	/*最大的容器距离顶部50个像素*/    
+	margin-top: 50px;    
+	display: inline-block;   
+ 	background-color: white;   
+ 	border: 1px solid #dddddd ;    
+	padding: 30px;   
+ 	border-radius: 6px;    
+	/*水平 和垂直都是0  2个像素*/    
+	/*设置阴影*/    
+	box-shadow: 0 0 10px #999;   
+ 	width: 260px;
+}
+/*面板头部*/
+#panel .panel-top{   
+ 	font-size: 13px;    
+	font-family: Arial;    
+	font-weight: normal;    
+	padding: 10px 0;    
+	border-bottom: 1px solid #dddddd;    
+	width: 220px;    
+	margin: 0 auto;
+}
+
+/*面板中间*/
+#panel .panel-content{   
+ 	margin-top: 20px;
+	float:left;
+}
+/*#panel .panel-content .myradio{
+ 	margin-top: 10px;
+ 	font-size: 20px;
+	font-family: Arial;
+	font-weight: normal;
+	vertical-align: end;
+
+}*/
+
+#panel .panel-content .myradio
+{
+	position:relative;
+	*top:1px;
+	margin:0 4px 0 0;
+	*margin:0 0 0 -4px;
+}
+#panel .panel-content .test
+{
+	width: 100%;
+}
+
+#panel .login button{    
+	margin-top: 10px;    
+	width: 100%;    
+	height: 33px;   
+ 	border: 0;    
+	color: white;    
+	font-size: 18px;    
+	margin-bottom: 5px;   
+ 	border-radius: 6px;   
+ 	background-color: #66dec3;
+}
+
+

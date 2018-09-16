@@ -1,0 +1,46 @@
+<em><!DOCTYPE html>
+<html lang="en">
+<head>    
+<meta charset="UTF-8">   
+ <title>熊猫SDK</title>   
+ <link href="css/pay.css" rel="stylesheet">
+ <script src="http://image.9game.cn/s/uae/g/1m/h5sdk/js/v1/sdk/h5-sdk.js"></script>
+ 
+</head>
+ 
+<body>
+<!--面板-->
+<div id="panel">   
+ 	<!--面板的头部-->   
+ 	<div class="panel-top">       
+ 	   <h2>支付方式</h2>    
+	</div>    
+	<div class="panel-content">
+		<div onclick="click_alipay();" style="margin-bottom:1em;line-height:10px;font-size:15px;">
+			<div><input id="paytype_alipay" class="myradio" type="radio" name="paytype" checked="checked">支付宝</div>
+		</div>
+		<div onclick="click_wx();" style="margin-bottom:1em;line-height:10px;font-size:15px;margin-left:-15px;">
+			<div><input id="paytype_wx" class="myradio" type="radio" name="paytype">微信</div>
+		</div>
+		<div onclick="click_bamboo();" style="margin-bottom:1em;line-height:10px;font-size:15px;margin-left:-15px;">
+			<div><input id="paytype_bamboo" class="myradio" type="radio" name="paytype">竹子</div>
+		</div>
+		<div onclick="click_coump();" style="margin-bottom:1em;line-height:10px;font-size:15px;">
+			<div><input id="paytype_coump" class="myradio" type="radio" name="paytype">代金券</div>
+		</div>
+		
+	</div>
+	
+	
+	
+ 	<div class="login">            
+		<button onclick="btnPay_click();">支付</button>              
+ 	</div>
+	
+	
+	
+<!--面板的底部-->  
+</div>
+</body>
+ <script  src="js/pay.js" type="text/javascript"></script>
+</html></em>
